@@ -1,13 +1,16 @@
 html{
   align-items: center;
   margin: 0;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
 }
 body {
     background-color: rgb(0, 0, 0);
     margin: 0px;
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    color: rgb(211, 201, 210);
     
   }
   
@@ -18,7 +21,7 @@ body {
   .menu a {
     font-size: 30px;
     font-weight: bolder;
-    color: rgb(152, 184, 159);
+    color: inherit;
     padding: 10px;
     border-radius: 10px;
   }
@@ -41,18 +44,60 @@ body {
   h1 {
     color: darkmagenta;
     font-size: 66px;
-    font-weight: 400;
+    font-weight: 900;
     font-style: normal;
     
-
   }
 
+  h2 {
+    font-size: xx-large;
+    font-weight: 800;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: x-large;
+  }
    
-  .hero {
+  #hero {
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     margin-top: 120px;
 
+  }
+  
+
+  .hero-right {
+    padding-left: 30px;
+    width: 50%;
+  }
+
+  button {
+    padding: 5px 15px;
+    font-family: "Archivo Black", sans-serif !important;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: darkmagenta;
+    color: inherit;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  #about {
+    display: flex;
+    padding: 50px 300px;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    
   }
